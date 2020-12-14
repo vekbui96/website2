@@ -5,7 +5,7 @@
 }
 body,
 html {
-  width: 320;
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -13,6 +13,16 @@ html {
   font-family: monospace;
   background-color: #eeebf0;
   position: relative;
+}
+.suggest-l {
+  width: 300px;
+  height: 300px;
+  background: transparent url("https://s.cdpn.io/6859/suggest.png") no-repeat center center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 200px;
+  margin-top: -200px;
 }
 .iphone-l {
   width: 600px;
@@ -117,11 +127,11 @@ html {
   content: '';
   width: 100px;
   height: 100px;
-  background: transparent url("https://s.cdpn.io/6859/icecreame.png") no-repeat center center;
+  background: transparent url("https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/80201096_3116630531700290_7309916861846519808_n.jpg?_nc_cat=106&ccb=2&_nc_sid=09cbfe&_nc_ohc=doee8vKEdhIAX_em9VZ&_nc_ht=scontent-dfw5-2.xx&oh=a5175f75e298bcadabba28f4fc72844e&oe=5FFE780D") no-repeat center center;
   background-size: 100% 100%;
 }
 .section-b.is-watermellon:after {
-  background: transparent url("https://s.cdpn.io/6859/watermellon.png") no-repeat center center;
+  background: transparent url("https://www.logo.wine/a/logo/Instagram/Instagram-Logo.wine.svg") no-repeat center center;
   background-size: 100% 100%;
 }
 .section-b.is-fish:after {
