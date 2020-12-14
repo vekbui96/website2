@@ -14,16 +14,6 @@ html {
   background-color: #eeebf0;
   position: relative;
 }
-.suggest-l {
-  width: 300px;
-  height: 300px;
-  background: transparent url("https://s.cdpn.io/6859/suggest.png") no-repeat center center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: 200px;
-  margin-top: -200px;
-}
 .iphone-l {
   width: 600px;
   height: 1061px;
